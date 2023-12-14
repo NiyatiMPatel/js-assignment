@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/22503eb10e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assignment11.css">
+  <title>Assignment 11</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Q.1 :- concatenate multiple string variables in JavaScript -->
+    <div class="wrapper">
+      <div class="q1_content">
+        <h4>Q.1 :- concatenate multiple string variables in JavaScript</h4>
+        String1: <span class="string_q1">Hello</span>
+        String1: <span class="string_q1">World</span>
+        <br>
+        <button onclick="question1()" id="q1_btn">Check Answer 1</button>
+        <p id="q1_output"></p>
+
+      </div>
+    </div>
+
+    <!-- Q.2 :- Print the innerHTML of p tag to the alert box -->
+    <div class="wrapper">
+      <div class="q2_content">
+        <h4>Q.2 :- Print the innerHTML of p tag to the alert box</h4>
+        <p id="string_q2">Welcome Users!</p>
+        <br>
+        <button onclick="question2()">Check Answer 2</button>
+      </div>
+    </div>
+
+    <!-- Q.3 :- Change the input value i.e :- Jhon==>Tom -->
+    <div class="wrapper">
+      <div class="q1_content">
+        <h4>Q.3 :- Change the input value i.e :- Jhon==>Tom</h4>
+        <label for="q1_name">Name</label>
+        <input type="text" value="Jhon" id="q1_name">
+        <br>
+        <button onclick="question3()">Check Answer 3</button>
+      </div>
+    </div>
+
+    <!-- Q.4 :- Give an example of get attribute and setattribute -->
+    <div class="wrapper">
+      <div class="q4_content">
+        <h4>Q.4 :- Give an example of get attribute and setattribute</h4>
+        <p class="para_q4">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, fugiat.</p>
+        <br>
+        <button onclick="question4()">Check Answer 4 (get)</button>
+        <button id="q4_btn">Check Answer 4 (set)</button>
+        <p id="q4_output"></p>
+      </div>
+    </div>
+
+    <!-- Q.5 :- Take input from the user and add 2 numbers -->
+    <div class="wrapper">
+      <div class="q5_content">
+        <h4>Q.5 :- Take input from the user and add 2 numbers</h4>
+        <label for="q5_num1">Enter Number 1</label>
+        <input type="number" id="q5_num1">
+        <label for="q5_num2">Enter Number 2</label>
+        <input type="number" id="q5_num2">
+        <br>
+        <button id="q5_btn">Check Answer 5</button>
+        <p id="q5_output"></p>
+      </div>
+    </div>
+
+    <!-- Q.6 :- Take a range from 1 - 20 and print the even number -->
+    <div class="wrapper">
+      <div class="q6_content">
+        <h4>Q.6 :- Take a range from 1 - 20 and print the even number</h4>
+        <!-- <label for="q6_num">Enter any number between 1 and 20</label>
+    <input type="number" min="1" max="20" id="q6_num">
+    <button id="q6_btn">Check Answer 6</button>
+    <p id="q6_output"></p> -->
+
+        <p id="q6_array"></p>
+        <button onclick="question6()">Check Answer 6</button>
+        <p id="q6_output"></p>
+      </div>
+    </div>
+
+    <!-- Q.7 :- Create array inside object and read the values . -->
+    <div class="wrapper">
+      <div class="q7_content">
+        <h4>Q.7 :- Create array inside object and read the values .</h5>
+          <p>
+            const data = {
+            name: "Ankit",
+            age: 24,
+            workingDay: ["Mon", "Tue", "Wed", "Thu", "Fri"]
+            };
+          </p>
+          <button onclick="question7()" id="q7_btn">Check Answer 7</button>
+          <p id="q7A_output"></p>
+      </div>
+    </div>
+
+    <!-- Q.8 :- var a = {
+    data :
+    [
+    {
+    name:"abc",
+    email:"abc@gmail.com"
+    },
+    {
+    name:"pqr",
+    email:"pqr@gmail.com"
+    }
+    ]
+    };
+    read the values -->
+    <div class="wrapper">
+      <h4>
+        Q.8 :- var a = {
+        data :
+        [
+        {
+        name:"abc",
+        email:"abc@gmail.com"
+        },
+        {
+        name:"pqr",
+        email:"pqr@gmail.com"
+        }
+        ]
+        };
+        read the values
+      </h4>
+
+      <button onclick="question8()" id="q8_btn">Check Answer 8</button>
+      <p id="q8_output"></p>
+    </div>
+
+    <!-- Q.9 :- print the following data "registration": '2017-01-03', "capacity": 7, "registration": '2018-03-03', "capacity": 5
+ 
+    let cars = [
+    {
+    "color": "purple",
+    "type": "minivan",
+    "registration": '2017-01-03',
+    "capacity": 7
+    },
+    {
+    "color": "red",
+    "type": "station wagon",
+    "registration": '2018-03-03',
+    "capacity": 5
+    }
+    ] -->
+    <div class="wrapper">
+      <div class="q9_content">
+        <h4>Q.9 :- print the following data "registration": '2017-01-03', "capacity": 7, "registration": '2018-03-03',
+          "capacity": 5
+
+          let cars = [
+          {
+          "color": "purple",
+          "type": "minivan",
+          "registration": '2017-01-03',
+          "capacity": 7
+          },
+          {
+          "color": "red",
+          "type": "station wagon",
+          "registration": '2018-03-03',
+          "capacity": 5
+          }
+          ]</h4>
+        <button onclick="question9()" id="q9_btn">Check Answer 9</button>
+        <p id="q9_content"></p>
+      </div>
+    </div>
+
+
+    <!-- Q.10 :- create object inside object and read it with for loop -->
+    <div class="wrapper">
+      <div class="q10_content">
+        <h4>Q.10 :- create object inside object and read it with for loop</h4>
+        <p>const students = {
+          stu1: {
+          name: "keval",
+          email: "keval@gmail.com",
+          id: 1,
+          },
+          stu2: {
+          name: "vishal",
+          email: "vishal@gmail.com",
+          id: 2,
+          },
+          stu3: {
+          name: "arun",
+          email: "arun@gmail.com",
+          id: 3,
+          }
+          };
+        </p>
+        <button onclick="question10()" id="q10_btn">Check Answer 10</button>
+        <p id="q10_output"></p>
+      </div>
+    </div>
+
+    <!-- Q.11 :- Write a JavaScript program to check whether a given positive number is a multiple of 3 or a multiple of 7. -->
+    <div class="wrapper">
+      <div class="q11_content">
+        <h4>Q.11 :- Write a JavaScript program to check whether a given positive number is a multiple of 3 or a multiple
+          of 7.</h4>
+        <label for="q11_num">Enter Number 1</label>
+        <input type="number" id="q11_num">
+        <br>
+        <button id="q11_btn">Check Answer 11</button>
+        <p id="q11_output"></p>
+      </div>
+    </div>
+
+    <!-- Q.12 :- Write a JavaScript program to check two given numbers and return true if one of the numbers is 50 or if their sum is 50.-->
+    <div class="wrapper">
+      <div class="q12_content">
+        <h4>Q.12 :- Write a JavaScript program to check two given numbers and return true if one of the numbers is 50 or
+          if their sum is 50.</h4>
+        <label for="q12_num1">Enter Number 1</label>
+        <input type="number" id="q12_num1">
+        <label for="q12_num2">Enter Number 2</label>
+        <input type="number" id="q12_num2">
+        <br>
+        <button id="q12_btn">Check Answer 12</button>
+        <p id="q12_output"></p>
+      </div>
+    </div>
+
+    <!-- Q.13 :- Write a JavaScript program to compute the sum of the two given integers. If the two values are same, then returns triple their sum. -->
+    <div class="wrapper">
+      <div class="q13_content">
+        <h4>Q.13 :- Write a JavaScript program to compute the sum of the two given integers. If the two values are same,
+          then returns triple their sum.</h4>
+        <label for="q13_num1">Enter Number 1</label>
+        <input type="number" id="q13_num1">
+        <label for="q13_num2">Enter Number 2</label>
+        <input type="number" id="q13_num2">
+        <br>
+        <button id="q13_btn">Check Answer 13</button>
+        <p id="q13_output"></p>
+      </div>
+    </div>
+
+    <!-- Q.14A :- Find the longest string from a given array ["Hello","Javascript"] -->
+    <div class="wrapper">
+      <div class="q14A_content">
+        <h4>Q.14 :- Find the longest string from a given array ["Hello","Javascript"]</h4>
+        <button id="q14A_btn">Check Answer 14A</button>
+        <p id="q14A_output"></p>
+      </div>
+    </div>
+
+    <!-- Q.14B :- Find the shortest string from a given array ["Hello","Javascript"] -->
+    <div class="wrapper">
+      <div class="q14B_content">
+        <h4>Q.14 :- Find the longest string from a given array ["Hello","Javascript"]</h4>
+        <button id="q14B_btn">Check Answer 14B</button>
+        <p id="q14B_output"></p>
+      </div>
+    </div>
+
+    <!-- Q.15 :- print following from given array c,g,f,n
+    Given Array :- ["a", "b", ["c", ["d", "e", ["f", "g"], "k"], "l"], "m", "n"]; -->
+    <div class="wrapper">
+      <div class="q15_content">
+        <h4>Q.15 :- print following from given array c,g,f,n
+          Given Array :- ["a", "b", ["c", ["d", "e", ["f", "g"], "k"], "l"], "m", "n"]</h4>
+        <button id="q15_btn">Check Answer 15</button>
+        <p id="q15_output"></p>
+      </div>
+    </div>
+
+    <!-- Q.16 :- Check whether a string starts with 'Java' print true and false otherwise .Given String = "Javascript" -->
+    <div class="wrapper">
+      <div class="q16_content">
+        <h4>Q.16 :- Check whether a string starts with 'Java' print true and false otherwise .Given String =
+          "Javascript"</h4>
+        <button id="q16_btn">Check Answer 16</button>
+        <p id="q16_output"></p>
+      </div>
+      <br />
+      <!-- ======================================= -->
+      <br />
+      <div class="q16A_content">
+        <label for="q16A_word">Enter one word:</label>
+        <input type="text" id="q16A_word" />
+        <br />
+        <button id="q16A_btn">Check Answer 16</button>
+        <p id="q16A_output"></p>
+      </div>
+    </div>
+
+    <!-- Q.17 :-Write a JavaScript function to calculate the sum of values in an array. -->
+    <div class="wrapper">
+      <div class="q17_content">
+        <h4>Q.17 :-Write a JavaScript function to calculate the sum of values in an array.</h4>
+        <h4>q17Arr = [2,4,6,8,11,13,15,17,19]</h4>
+        <button id="q17_btn">Check Answer 17</button>
+        <p id="q17_output"></p>
+      </div>
+    </div>
+
+    <!-- Q.18 :- Write a JavaScript function to calculate the product of values in an array. -->
+    <div class="wrapper">
+      <div class="q18_content">
+        <h4>Q.18 :-Write a JavaScript function to calculate the product of values in an array.</h4>
+        <h4>q18Arr = [1,3,5,7,9,12,14,16,18,20]</h4>
+        <button id="q18_btn">Check Answer 18</button>
+        <p id="q18_output"></p>
+      </div>
+    </div>
+
+    <!-- Q.19 :- Write a JavaScript function that accepts a number as a parameter and check if the number is prime or not. -->
+    <div class="wrapper">
+      <div class="q19_content">
+        <h4>Q.19 :- Write a JavaScript function that accepts a number as a parameter and check if the number is prime or
+          not.</h4>
+        <label for="q19_num">Enter a number:</label>
+        <input type="number" id="q19_num" />
+        <br />
+        <button id="q19_btn" onclick="primeFunction()">Check Answer 19</button>
+        <p id="q19_output"></p>
+      </div>
+      <br />
+      <!-- ===================================================================== -->
+
+      <!-- <br />
+      <button id="q19A_btn" onclick="primeFunc(1)">Check Answer 19</button>
+      <p id="q19A_output"></p> -->
+    </div>
+
+    <!-- Q.20 :-Write a JavaScript validation for empty input field -->
+    <div class="wrapper">
+      <div class="q20_content">
+        <h4>Q.20 :-Write a JavaScript validation for empty input field</h4>
+        <div id="q20_content">
+          <label for="q20_text">Enter your text:</label>
+          <input type="text" id="q20_text" />
+        </div>
+        <br />
+        <button id="q20_btn" onclick="inputVal()">Check Answer 20</button>
+        <p id="q20_output"></p>
+      </div>
+    </div>
+
+    <!-- Q.21 :-Write a JavaScript validation for email field -->
+    <div class="wrapper">
+      <div class="q21_content">
+        <form id="emailForm" ction="#">
+          <h4>Q.21 :-Write a JavaScript validation for email field</h4>
+          <label for="q21_emial">Enter your email</label>
+          <input type="text" id="q21_input" value="" name="email" />
+          <br />
+          <button type="submit">Check Answer 21</button>
+          <p id="q21_output"></p>
+        </form>
+      </div>
+    </div>
+
+    <!-- Q.22 :-Write a JavaScript validation for password field -->
+    <div class="wrapper">
+      <div class="q22_content">
+        <form id="passwordForm" ction="#">
+          <h4>Q.22 :-Write a JavaScript validation for password field</h4>
+          <label for="q22_password">Enter your password</label>
+          <input type="text" id="q22_input" value="" name="password" />
+          <br />
+          <button type="submit">Check Answer 22</button>
+          <p id="q22_output"></p>
+        </form>
+      </div>
+    </div>
+
+    <!-- Q.23 :-Give an example of replace method with "gi" -->
+    <div class="wrapper">
+      <div class="q23_content">
+        <h4>Q.23 :-Give an example of replace method with "gi"</h4>
+        <p id="q23_text">Fuzzy Wuzzy was a bear. Fuzzy Wuzzy had no hair. Fuzzy Wuzzy wasn’t fuzzy, was he?</p>
+        <br />
+        <button id="q23_btn" onclick="q23_function()">Check Answer 23</button>
+        <p id="q23_output"></p>
+      </div>
+      <br />
+
+      <!-- ========================================================== -->
+
+      <br />
+      <div class="q23A_content">
+        <p id="q23A_text">Mr Blue has a blue house and a blue car.</p>
+        <br />
+        <button id="q23A_btn" onclick="q23A_function()">Check Answer 23A</button>
+        <p id="q23A_output"></p>
+      </div>
+    </div>
+
+    <!-- Q.24 :- Swap two images -->
+    <div class="wrapper">
+      <div class="q24_content">
+        <h4>Q.24 :- Swap two images</h4>
+        <img src="./images/sample1.jpg" alt="sample-1" id="q24_img1" width="250" height="250">
+        <img src="./images/sample2.jpg" alt="sample-2" id="q24_img2" width="250" height="250">
+        <br />
+        <button id="q24_btn" onclick="q24_imgSwap()">Check Answer 24</button>
+      </div>
+    </div>
+
+    <!-- Q.25 :- Get the value of the selected radio button with JavaScript -->
+    <div class="wrapper">
+      <div class="q25_content">
+        <h4>Q.25 :- Get the value of the selected radio button with JavaScript</h4>
+        <div>
+          <input type="checkbox" class="user-input" value="option-1"> <label>option-1</label>
+        </div>
+        <div>
+          <input type="radio" class="user-input" value="option-2"> <label>option-2</label>
+        </div>
+        <div>
+          <input type="checkbox" class="user-input" value="option-3"> <label>option-3</label>
+        </div>
+        <div>
+          <input type="radio" class="user-input" value="option-4"> <label>option-4</label>
+        </div>
+        <div>
+          <input type="checkbox" class="user-input" value="option-5"> <label>option-5</label>
+        </div>
+        <div>
+          <input type="radio" class="user-input" value="option-6"> <label>option-6</label>
+        </div>
+        <button id="q25_btn" onclick="q25_function()">Check Answer 25</button>
+        <p id="q25_output"></p>
+      </div>
+    </div>
+
+    <!-- Q.26 :- Give an example of break. -->
+    <div class="wrapper">
+      <div class="q26_content">
+        <h4>Q.26 :- Give an example of break.</h4>
+        <h4>Example 1: break with for Loop</h4>
+        <p>Program to print the value of i
+        <pre>
+          <code>
+            for (let i = 1; i <= 5; i++) {
+              if (i==3) { 
+                break; 
+              } 
+            }
+          </code>
+        </pre>
+        </p>
+        <button id="q26_1_btn" onclick="q26_1_function()">Check Answer 26 Example 1</button>
+        <p id="q26_1_output"></p>
+      </div>
+
+      <br>
+      <br>
+
+      <h4>Example 2: break with while Loop</h4>
+      <p>Program to find the sum of positive numbers.
+        If the user enters a negative numbers, break ends the loop.
+        The negative number entered is not added to sum
+      <pre>
+        <code>
+          let sum = 0, number;
+          
+          while(true) {
+          
+          // take input again if the number is positive
+          number = parseInt(prompt('Enter a number: '));
+          
+          // break condition
+          if(number < 0) { break; } // add all positive numbers sum +=number; }
+        </code>
+      </pre>
+      </p>
+      <button id="q26_2_btn" onclick="q26_2_function()">Check Answer 26 Example 2</button>
+      <p id="q26_2_output"></p>
+
+      <h4>Example 3: break in switch statements</h4>
+      <p>The following code has a break statement that terminates the switch statement when a case is matched and the
+        corresponding code has run.
+      <pre>
+      <code>
+        const food = <input type="text" id="q26_input">;
+        
+        switch (food) {
+        case "sushi":
+        console.log("Sushi is originally from Japan.");
+        break;
+        case "pizza":
+        console.log("Pizza is originally from Italy.");
+        break;
+        default:
+        console.log("I have never heard of that dish.");
+        break;
+        }
+      </code>
+    </pre>
+      </p>
+      <button id="q26_3_btn" onclick="q26_3_function()">Check Answer 26 Example 3</button>
+      <p id="q26_3_output"></p>
+    </div>
+
+    <!-- Q.27 :-Take input from the user and print the number of vowels present in the string. -->
+    <div class="wrapper">
+      <div class="q27_content">
+        <h4>Q.27 :-Take input from the user and print the number of vowels present in the string.</h4>
+
+        <label for="q27_text">Enter your text</label>
+        <input type="text" id="q27_text">
+        <br>
+        <button id="q27_btn" onclick="q27_function()">Check Answer 27</button>
+        <p id="q27_output"></p>
+      </div>
+    </div>
+
+    <!-- Q.28 :-Take input from the user and Print Number of words and character present in the string -->
+    <div class="wrapper">
+      <div class="q28_content">
+        <h4>Q.28 :-Take input from the user and Print Number of words and character present in the string</h4>
+        <label for="q28_text">Enter your text</label>
+        <input type="text" id="q28_text">
+        <br>
+        <button id="q28_btn" onclick="q28_function()">Check Answer 28</button>
+        <p id="q28_output"></p>
+
+      </div>
+    </div>
+
+
+    <!-- Q.28A :- Change the color of div from dropdown value -->
+    <div class="wrapper">
+      <div class="q28_content">
+        <h4>Q.28A :- Change the color of div from dropdown value</h4>
+        <select id="colors1" onchange="q28AchangeColor()">
+          <option value="#ffffff">Choose Color</option>
+          <option value="#ff0000">Red</option>
+          <option value="#0000ff">Blue</option>
+          <option value="#ffff00">Yellow</option>
+          <option value="#00ff00">Green</option>
+        </select>
+        <div id="q28A_box_1" class="q28A_box_1"></div>
+      </div>
+    </div>
+
+    <!-- Q.29 :- Create Dynamic Modal. -->
+    <div class="wrapper q29_wrapper">
+      <div class="q29_content">
+        <h4>Q.29 :- Create Dynamic Modal.</h4>
+        <div class="row">
+          <div class="col" id="div_1" onclick="openModal('Your Name', './images/sample3.jpg')">
+            <div class="inner">
+              <img src="./images/sample3.jpg" alt="your_name">
+            </div>
+          </div>
+          <div class="col" id="div_2" onclick="openModal('Weathering with You', './images/sample4.jpg')">
+            <div class="inner">
+              <img src="./images/sample4.jpg" alt="weathering_with_you">
+            </div>
+          </div>
+          <div class="col" id="div_3" onclick="openModal('A Silent Voice', './images/sample5.jpg')">
+            <div class="inner">
+              <img src="./images/sample5.jpg" alt="a_silent_voice">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="backdrop" id="backdrop" onclick="closeModal()"></div>
+
+      <div class="modal-wrapper" id="modal-wrapper">
+        <div class="close-modal" id="close-modal" onclick="closeModal()">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="modal-body" id="modal-body">
+          <div class="body-title my-4" id="body-title"></div>
+          <img src="" alt="" class="w-100 body-image" id="body-image">
+        </div>
+        <div class="modal-foot" id="modal-foot">
+          <button class="close-btn" id="close-btn" onclick="closeModal()">Close Window</button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Q.30 :- To do List. REFER: https://www.makeuseof.com/how-to-build-todo-list-app-using-javascript/-->
+    <div class="wrapper">
+      <div class="q30_content">
+        <h4>Q.30 :- To do List.</h4>
+        <div class="to_do_container">
+          <div class="to_do_wrapper">
+            <div class="to_do_content">
+              <h4 class="to_do_heading">
+                To-Do List App
+              </h4>
+              <div class="to_do_form">
+                <input class="to_do_add_input" name="text" id="text" placeholder="Add Todo" />
+                <input type="hidden" id="saveIndex" />
+                <button class="add_btn" id="add-task-btn">Add</button>
+                <button class="edit_btn" id="save-todo-btn">Edit Todo</button>
+                <button class="cancel_btn" id="cancle-todo-btn">Cancel Edit</button>
+              </div>
+            </div>
+            <div id="listBox"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Q.31 :- Create BMI Calculator. -->
+    <div class="wrapper">
+      <div class="q31_content">
+        <h4>Q.31 :- Create BMI Calculator.</h4>
+        <div class="input-wrapper">
+          <label for="weight"> Weight in KG:</label>
+          <input type="number" id="weight" class="weight">
+          <label for="height"> Height in M:</label>
+          <input type="number" id="height" class="height">
+        </div>
+        <button onclick=bmi()>Check Answer 31</button>
+        <div class="bmi-value">
+          <label for="bmi-value"> Your BMI: </label>
+          <input type="number" id="bmi-value" class="bmi-value-input"> <span>KG/M<sup>2</sup></span>
+        </div>
+        <div class="bmi-content" id="bmi-content" class="bmi-content"></div>
+      </div>
+    </div>
+
+    <!-- Q.32 :- Create Math Calculator. -->
+    <div class="wrapper">
+      <div class="q32_content">
+        <h4>Q.32 :- Create Math Calculator.</h4>
+        <table class="calculator">
+          <tr>
+            <td colspan="3"> <input class="display-box" type="text" id="result" disabled /> </td>
+
+            <!-- clearScreen() function clears all the values -->
+            <td> <input type="button" value="C" onclick="clearScreen()" id="btn" /> </td>
+          </tr>
+          <tr>
+            <!-- display() function displays the value of clicked button -->
+            <td> <input type="button" value="1" onclick="display('1')" /> </td>
+            <td> <input type="button" value="2" onclick="display('2')" /> </td>
+            <td> <input type="button" value="3" onclick="display('3')" /> </td>
+            <td> <input type="button" value="/" onclick="display('/')" /> </td>
+          </tr>
+          <tr>
+            <td> <input type="button" value="4" onclick="display('4')" /> </td>
+            <td> <input type="button" value="5" onclick="display('5')" /> </td>
+            <td> <input type="button" value="6" onclick="display('6')" /> </td>
+            <td> <input type="button" value="-" onclick="display('-')" /> </td>
+          </tr>
+          <tr>
+            <td> <input type="button" value="7" onclick="display('7')" /> </td>
+            <td> <input type="button" value="8" onclick="display('8')" /> </td>
+            <td> <input type="button" value="9" onclick="display('9')" /> </td>
+            <td> <input type="button" value="+" onclick="display('+')" /> </td>
+          </tr>
+          <tr>
+            <td> <input type="button" value="." onclick="display('.')" /> </td>
+            <td> <input type="button" value="0" onclick="display('0')" /> </td>
+
+            <!-- calculate() function evaluates the mathematical expression -->
+            <td> <input type="button" value="=" onclick="calculate()" id="btn" /> </td>
+            <td> <input type="button" value="*" onclick="display('*')" /> </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- Q.33 :- Create Currency converter. -->
+    <div class="wrapper">
+      <div class="q33_content">
+        <h4>Q.33 :- Create Currency converter.</h4>
+        <div class="input-wrapper">
+          <label for="q33_input">Enter number: </label>
+          <input type="text" id="q33_input">
+        </div>
+
+        <div class="select-wrapper">
+          <select name="converter-menu" id="converter-list" onchange="currencyConverter()">
+            <option value="choose option">choose option</option>
+            <option value="INR to USD">INR to USD</option>
+            <option value="USD to INR">USD to INR</option>
+            <option value="INR to AUD">INR to AUD</option>
+            <option value="AUD to INR">AUD to INR</option>
+            <option value="INR to CAD">INR to CAD</option>
+            <option value="CAD to INR">CAD to INR</option>
+          </select>
+        </div>
+        <div class="output-input-wrapper">
+          <label for="output-field">Converted result: </label>
+          <input type="text" id="output-field">
+        </div>
+      </div>
+    </div>
+
+    <!-- Q.34 :- Create Accordian. -->
+    <div class="wrapper">
+      <div class="q34_content">
+        <h4>Q.34 :- Create Accordian.</h4>
+        <h4>Simple</h4>
+        <div>
+          <button class="accordion">Section 1</button>
+          <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore
+              magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo
+              consequat.</p>
+          </div>
+
+          <button class="accordion">Section 2</button>
+          <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore
+              magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo
+              consequat.</p>
+          </div>
+
+          <button class="accordion">Section 3</button>
+          <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore
+              magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo
+              consequat.</p>
+          </div>
+        </div>
+
+        <h4>Auto hide</h4>
+        <div>
+          <div class="accordionItem open">
+            <button class="accordionItemHeading">Section 1</button>
+            <div class="accordionItemContent">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo
+                consequat.</p>
+            </div>
+          </div>
+
+          <div class="accordionItem close">
+            <button class="accordionItemHeading">Section 2</button>
+            <div class="accordionItemContent">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo
+                consequat.</p>
+            </div>
+          </div>
+
+
+          <div class="accordionItem close">
+            <button class="accordionItemHeading">Section 3</button>
+            <div class="accordionItemContent">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo
+                consequat.</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Q.35 :- add border to the borderless table -->
+    <div class="wrapper">
+      <div class="q35_content">
+        <h4>Q.35 :- add border to the borderless table</h4>
+        <div class="inner_3" id="inner_3">
+          <table id="q35_table">
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Contact</th>
+            </tr>
+            <tr>
+              <td>abc</td>
+              <td>abc@gmail.com</td>
+              <td>1234</td>
+            </tr>
+            <tr>
+              <td>def</td>
+              <td>def@gmail.com</td>
+              <td>5678</td>
+            </tr>
+            <tr>
+              <td>ghi</td>
+              <td>ghi@gmail.com</td>
+              <td>9101</td>
+            </tr>
+          </table>
+        </div>
+
+        <button onclick=q35_function()>Check Answer 35</button>
+      </div>
+    </div>
+
+    <!-- Q.36 :- Convert month name to a number of days -->
+    <div class="wrapper">
+      <div class="q36_content">
+        <h4>Q.36 :- Convert month name to a number of days</h4>
+        <label for="month"> Enter month</label>
+        <input type="text" id="month">
+        <br>
+        <button id="question36-btn" onclick=month()>Check Answer 36</button>
+        <p>Number of days in entered month: <span id="question36-output"></span></p>
+      </div>
+    </div>
+
+    <!-- Q.37 :-Take 3 sides of the triangle as input from the user and check whether that triangle is equilateral, scalene or isosceles.-->
+    <div class="wrapper">
+      <div class="q37_content">
+        <h4>Q.37 :-Take 3 sides of the triangle as input from the user and check whether that triangle is equilateral,
+          scalene or
+          isosceles.</h4>
+        <div class="triangle-wrapper">
+          <div class="input-wrapper">
+            <label for="side1"> Side-1:</label>
+            <input type="number" id="side1" class="triangle-side">
+            <label for="side2"> Side-2:</label>
+            <input type="number" id="side2" class="triangle-side">
+            <label for="side3"> Side-3:</label>
+            <input type="number" id="side3" class="triangle-side">
+          </div>
+          <button onclick=triangle()>Check Answer 37</button>
+          <div class="triangle-content" id="triangle-content" class="triangle-content"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Q.38 :-Find the largest of three given number from input. -->
+    <div class="wrapper">
+      <h4>Q.38 :-Find the largest of three given number from input.</h4>
+      <div class="q38_content">
+        <label for="q38-number-one">First Number</label>
+        <input type="text" id="q38-number-one" placeholder="first number">
+        <label for="q38-number-two">Second Number</label>
+        <input type="text" id="q38-number-two" placeholder="second number">
+        <label for="q38-number-three">Third Number</label>
+        <input type="text" id="q38-number-three" placeholder="third number">
+        <br>
+        <button id="question38-btn" onclick=larget()>Check Answer 38</button>
+        <p> Largest Number: <span id="question38-output"></span></p>
+      </div>
+    </div>
+
+    <!-- Q.39 :-Find the smallest of three given number from input. -->
+    <div class="wrapper">
+      <h4>Q.39 :-Find the smallest of three given number from input.</h4>
+      <div class="q39_content">
+        <label for="q39-number-one">First Number</label>
+        <input type="text" id="q39-number-one" placeholder="first number">
+        <label for="q39-number-two">Second Number</label>
+        <input type="text" id="q39-number-two" placeholder="second number">
+        <label for="q39-number-three">Third Number</label>
+        <input type="text" id="q39-number-three" placeholder="third number">
+        <br>
+        <button id="question39-btn" onclick=smallest()>Check Answer 39</button>
+        <p> Smallest Number: <span id="question39-output"></span></p>
+      </div>
+    </div>
+
+    <!-- Q.40 :-On-scroll Change the color and height of navbar -->
+    <div class="wrapper">
+      <div class="q40_content">
+        <div class="content_wrapper">
+          <h4>Q.40 :-On-scroll Change the color and height of navbar</h4>
+          <div id="navbar">
+            <a href="#default" id="logo">CompanyLogo</a>
+            <div id="navbar-right">
+              <a class="active" href="#home">Home</a>
+              <a href="#contact">Contact</a>
+              <a href="#about">About</a>
+            </div>
+          </div>
+          <div class="text_content">
+            <p>Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi
+              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit
+              anim id est laborum.</p>
+
+            <p>Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi
+              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit
+              anim id est laborum.</p>
+
+            <p>Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi
+              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit
+              anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="./assignment11.js" defer></script>
+</body>
+
+</html>
